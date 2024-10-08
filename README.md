@@ -1,9 +1,27 @@
 # README
 
-本代码为C++调用Python模块进行Yolov8目标检测示例代码
+------
 
-## 需要注意的路径
+Environment requirement
 
-1. `cmake/add_dependency.cmake`中的 `add_python`，请根据本地Python环境修改为对应路径
-2. `Yolov8.hpp`中，为Python添加的import路径，当前为cmake相对路径
-3. `main.cpp`中，加载的训练好的pytorch模型和分类标签路径
+- ubuntu20.04
+- python>=3.8
+- cuda=11.8
+- GPU（my computer is RTX 3050 Laptop 4G)
+- opencv>=4.7(4.7 recommended)
+- onnxruntime
+
+------
+
+本代码为Yolov8 C++ 推理onnx的代码--分支ONNX_CPP
+
+参考ultralytics-yolov8_onnx_CPP_example
+
+在main.cpp中修改模型以及classes.txt路径
+
+模型后缀为.onnx
+
+类别根据自己训练所分的类别确定，如果和模型对不上会报错
+
+
+

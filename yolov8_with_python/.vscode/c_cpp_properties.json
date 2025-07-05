@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zzzing/桌面/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/zzzing/桌面/catkin_ws/src/Azure_Kinect_ROS_Driver/include/**",
+        "/home/zzzing/桌面/catkin_ws/src/FAST_LIO/include/**",
+        "/home/zzzing/桌面/catkin_ws/src/faster-lio/include/**",
+        "/home/zzzing/桌面/catkin_ws/src/kinect_zzzing/include/**",
+        "/home/zzzing/桌面/catkin_ws/src/odom_kalman/include/**",
+        "/home/zzzing/桌面/catkin_ws/src/Point-LIO/include/**",
+        "/home/zzzing/桌面/catkin_ws/src/uart_pub_vofa/include/**",
+        "/home/zzzing/桌面/catkin_ws/src/zed_publisher/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

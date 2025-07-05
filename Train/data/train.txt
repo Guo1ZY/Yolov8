@@ -1,0 +1,4 @@
+data/images/6_1.jpg
+data/images/3_1.jpg
+data/images/8_1.jpg
+data/images/7_1.jpg

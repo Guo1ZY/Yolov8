@@ -1,9 +1,0 @@
-train: /home/zzzing/桌面/代码/RC2024/Yolov8_With_Python/Train/data/train.txt
-val: /home/zzzing/桌面/代码/RC2024/Yolov8_With_Python/Train/data/val.txt
-test: /home/zzzing/桌面/代码/RC2024/Yolov8_With_Python/Train/data/test.txt
-
-#number of classes
-nc: 1
-
-# class names
-names: ['silver']

@@ -1,0 +1,11 @@
+# ninja log v5
+0	19	0	/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/build/CMakeFiles/cmake.verify_globs	4f29980f98639664
+0	3785	1752158098424979846	main/CMakeFiles/run.dir/sources/main.cpp.o	e9110f8215c795ac
+0	10677	1752158104749245385	yolo/yolov8/CMakeFiles/yolov8.dir/sources/Yolov8.cu.o	7abf64420644876a
+10678	10733	1752158105377271700	../bin/libyolov8.a	5fffbc1bcd27e227
+10733	10757	1752158105401272706	../bin/libyolo.a	df2a035604d0db14
+10758	11252	1752158105889293150	../bin/run	654bfc413b41b6ee
+0	17	0	/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/build/CMakeFiles/cmake.verify_globs	4f29980f98639664
+1	21	0	/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/build/CMakeFiles/cmake.verify_globs	4f29980f98639664
+2	2957	1752158388488324675	main/CMakeFiles/run.dir/sources/main.cpp.o	e9110f8215c795ac
+2958	3448	1752158388976342569	../bin/run	654bfc413b41b6ee

@@ -1,0 +1,3 @@
+/home/nyakori/桌面/yolo11trt/predict/main/build/CMakeFiles/run.dir
+/home/nyakori/桌面/yolo11trt/predict/main/build/CMakeFiles/edit_cache.dir
+/home/nyakori/桌面/yolo11trt/predict/main/build/CMakeFiles/rebuild_cache.dir

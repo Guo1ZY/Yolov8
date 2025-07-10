@@ -1,0 +1,172 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libmyplugins.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"link_directories",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -Xcompiler=-fPIC   -std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "API_EXPORTS"
+				},
+				{
+					"define" : "myplugins_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/nyakori/withy/yolo11trt/get_model/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/nyakori/withy/yolo11trt/get_model/plugin"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/workspace/shared/TensorRT-8.6.1.6/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/usr/local/include/opencv4"
+				}
+			],
+			"language" : "CUDA",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "myplugins::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/workspace/shared/TensorRT-8.6.1.6/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/workspace/shared/TensorRT-8.6.1.6/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lnvinfer",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcudart",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CUDA"
+	},
+	"name" : "myplugins",
+	"nameOnDisk" : "libmyplugins.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "plugin/yololayer.cu",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,167 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "Clang",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/ros/humble/include",
+						"/usr/lib/llvm-14/lib/clang/14.0.0/include",
+						"/usr/local/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/lib/gcc/x86_64-linux-gnu/11",
+						"/usr/lib64",
+						"/lib/x86_64-linux-gnu",
+						"/lib64",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib/llvm-14/lib",
+						"/lib",
+						"/usr/lib",
+						"/usr/local/cuda/lib64"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/usr/bin/clang",
+				"version" : "14.0.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "NVIDIA",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/ros/humble/include",
+						"/usr/include/c++/11",
+						"/usr/include/x86_64-linux-gnu/c++/11",
+						"/usr/include/c++/11/backward",
+						"/usr/lib/gcc/x86_64-linux-gnu/11/include",
+						"/usr/local/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/local/cuda/targets/x86_64-linux/lib/stubs",
+						"/usr/local/cuda/targets/x86_64-linux/lib",
+						"/usr/local/cuda/lib",
+						"/usr/lib/gcc/x86_64-linux-gnu/11",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib",
+						"/lib/x86_64-linux-gnu",
+						"/lib",
+						"/usr/local/cuda/lib64"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/usr/local/cuda/bin/nvcc",
+				"version" : "11.8.89"
+			},
+			"language" : "CUDA",
+			"sourceFileExtensions" : 
+			[
+				"cu"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "Clang",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/ros/humble/include",
+						"/usr/include/c++/11",
+						"/usr/include/x86_64-linux-gnu/c++/11",
+						"/usr/include/c++/11/backward",
+						"/usr/lib/llvm-14/lib/clang/14.0.0/include",
+						"/usr/local/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/lib/gcc/x86_64-linux-gnu/11",
+						"/usr/lib64",
+						"/lib/x86_64-linux-gnu",
+						"/lib64",
+						"/usr/lib/x86_64-linux-gnu",
+						"/usr/lib/llvm-14/lib",
+						"/lib",
+						"/usr/lib",
+						"/usr/local/cuda/lib64"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/usr/bin/clang++",
+				"version" : "14.0.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

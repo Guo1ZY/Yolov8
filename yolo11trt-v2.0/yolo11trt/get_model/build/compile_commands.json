@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/nyakori/withy/yolo11trt/get_model/build",
+  "command": "/usr/bin/g++  -DAPI_EXPORTS -I/home/nyakori/withy/yolo11trt/get_model/include -I/home/nyakori/withy/yolo11trt/get_model/plugin -I/usr/local/cuda/include -I/workspace/shared/TensorRT-8.6.1.6/include -isystem /usr/local/include/opencv4  -g   -std=c++11 -std=gnu++11 -o CMakeFiles/yolo11_det.dir/main.cpp.o -c /home/nyakori/withy/yolo11trt/get_model/main.cpp",
+  "file": "/home/nyakori/withy/yolo11trt/get_model/main.cpp"
+},
+{
+  "directory": "/home/nyakori/withy/yolo11trt/get_model/build",
+  "command": "/usr/bin/g++  -DAPI_EXPORTS -I/home/nyakori/withy/yolo11trt/get_model/include -I/home/nyakori/withy/yolo11trt/get_model/plugin -I/usr/local/cuda/include -I/workspace/shared/TensorRT-8.6.1.6/include -isystem /usr/local/include/opencv4  -g   -std=c++11 -std=gnu++11 -o CMakeFiles/yolo11_det.dir/src/block.cpp.o -c /home/nyakori/withy/yolo11trt/get_model/src/block.cpp",
+  "file": "/home/nyakori/withy/yolo11trt/get_model/src/block.cpp"
+},
+{
+  "directory": "/home/nyakori/withy/yolo11trt/get_model/build",
+  "command": "/usr/bin/g++  -DAPI_EXPORTS -I/home/nyakori/withy/yolo11trt/get_model/include -I/home/nyakori/withy/yolo11trt/get_model/plugin -I/usr/local/cuda/include -I/workspace/shared/TensorRT-8.6.1.6/include -isystem /usr/local/include/opencv4  -g   -std=c++11 -std=gnu++11 -o CMakeFiles/yolo11_det.dir/src/calibrator.cpp.o -c /home/nyakori/withy/yolo11trt/get_model/src/calibrator.cpp",
+  "file": "/home/nyakori/withy/yolo11trt/get_model/src/calibrator.cpp"
+},
+{
+  "directory": "/home/nyakori/withy/yolo11trt/get_model/build",
+  "command": "/usr/bin/g++  -DAPI_EXPORTS -I/home/nyakori/withy/yolo11trt/get_model/include -I/home/nyakori/withy/yolo11trt/get_model/plugin -I/usr/local/cuda/include -I/workspace/shared/TensorRT-8.6.1.6/include -isystem /usr/local/include/opencv4  -g   -std=c++11 -std=gnu++11 -o CMakeFiles/yolo11_det.dir/src/model.cpp.o -c /home/nyakori/withy/yolo11trt/get_model/src/model.cpp",
+  "file": "/home/nyakori/withy/yolo11trt/get_model/src/model.cpp"
+},
+{
+  "directory": "/home/nyakori/withy/yolo11trt/get_model/build",
+  "command": "/usr/bin/g++  -DAPI_EXPORTS -I/home/nyakori/withy/yolo11trt/get_model/include -I/home/nyakori/withy/yolo11trt/get_model/plugin -I/usr/local/cuda/include -I/workspace/shared/TensorRT-8.6.1.6/include -isystem /usr/local/include/opencv4  -g   -std=c++11 -std=gnu++11 -o CMakeFiles/yolo11_det.dir/src/postprocess.cpp.o -c /home/nyakori/withy/yolo11trt/get_model/src/postprocess.cpp",
+  "file": "/home/nyakori/withy/yolo11trt/get_model/src/postprocess.cpp"
+},
+{
+  "directory": "/home/nyakori/withy/yolo11trt/get_model/build",
+  "command": "/usr/local/cuda/bin/nvcc  -DAPI_EXPORTS -I/home/nyakori/withy/yolo11trt/get_model/include -I/home/nyakori/withy/yolo11trt/get_model/plugin -I/workspace/shared/TensorRT-8.6.1.6/include -isystem=/usr/local/include/opencv4  -g   -std=c++11 -std=c++11 -x cu -c /home/nyakori/withy/yolo11trt/get_model/src/postprocess.cu -o CMakeFiles/yolo11_det.dir/src/postprocess.cu.o",
+  "file": "/home/nyakori/withy/yolo11trt/get_model/src/postprocess.cu"
+},
+{
+  "directory": "/home/nyakori/withy/yolo11trt/get_model/build",
+  "command": "/usr/local/cuda/bin/nvcc  -DAPI_EXPORTS -I/home/nyakori/withy/yolo11trt/get_model/include -I/home/nyakori/withy/yolo11trt/get_model/plugin -I/workspace/shared/TensorRT-8.6.1.6/include -isystem=/usr/local/include/opencv4  -g   -std=c++11 -std=c++11 -x cu -c /home/nyakori/withy/yolo11trt/get_model/src/preprocess.cu -o CMakeFiles/yolo11_det.dir/src/preprocess.cu.o",
+  "file": "/home/nyakori/withy/yolo11trt/get_model/src/preprocess.cu"
+},
+{
+  "directory": "/home/nyakori/withy/yolo11trt/get_model/build",
+  "command": "/usr/local/cuda/bin/nvcc  -DAPI_EXPORTS -Dmyplugins_EXPORTS -I/home/nyakori/withy/yolo11trt/get_model/include -I/home/nyakori/withy/yolo11trt/get_model/plugin -I/workspace/shared/TensorRT-8.6.1.6/include -I/usr/local/include/opencv4  -g -Xcompiler=-fPIC   -std=c++11 -x cu -c /home/nyakori/withy/yolo11trt/get_model/plugin/yololayer.cu -o CMakeFiles/myplugins.dir/plugin/yololayer.cu.o",
+  "file": "/home/nyakori/withy/yolo11trt/get_model/plugin/yololayer.cu"
+}
+]

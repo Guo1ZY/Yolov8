@@ -1,9 +1,0 @@
-# ninja log v5
-0	19	0	/home/zy/桌面/111111111111/Cpp_Onnx_Samples/build/CMakeFiles/cmake.verify_globs	58b8a5957eb88d72
-0	2937	1751702342742838271	yolo/yolov8/CMakeFiles/yolov8.dir/sources/Yolov8.cpp.o	adfddd8d09bdbe04
-0	14	0	/home/zy/桌面/111111111111/Cpp_Onnx_Samples/build/CMakeFiles/cmake.verify_globs	58b8a5957eb88d72
-1	27	1751702347190885256	../bin/libyolov8.a	94dc945bd59dae4
-27	47	1751702347210885468	../bin/libyolo.a	df2a035604d0db14
-1	18	0	/home/zy/桌面/111111111111/Cpp_Onnx_Samples/build/CMakeFiles/cmake.verify_globs	58b8a5957eb88d72
-1	2270	1751702358543005286	main/CMakeFiles/run.dir/sources/main.cpp.o	15389c9dad9826f6
-2270	2629	1751702358899009053	../bin/run	8ee551ec1884d7b8

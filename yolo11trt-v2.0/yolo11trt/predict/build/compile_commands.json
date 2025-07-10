@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/build",
+  "command": "/usr/local/cuda/bin/nvcc   -I/workspace/shared/TensorRT-8.6.1.6/include -I../yolo/yolov8/include -isystem=/usr/local/include/opencv4  -g   -std=c++11 -x cu -c \"/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/yolo/yolov8/sources/Yolov8.cu\" -o yolo/yolov8/CMakeFiles/yolov8.dir/sources/Yolov8.cu.o && /usr/local/cuda/bin/nvcc   -I/workspace/shared/TensorRT-8.6.1.6/include -I../yolo/yolov8/include -isystem=/usr/local/include/opencv4  -g   -std=c++11 -x cu -M \"/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/yolo/yolov8/sources/Yolov8.cu\" -MT yolo/yolov8/CMakeFiles/yolov8.dir/sources/Yolov8.cu.o -o $DEP_FILE",
+  "file": "/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/yolo/yolov8/sources/Yolov8.cu"
+},
+
+{
+  "directory": "/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/build",
+  "command": "/usr/bin/g++  -DAPI_EXPORTS -I/usr/local/cuda/include -I/workspace/shared/TensorRT-8.6.1.6/include -I../main/include -I../yolo/yolov8/include -isystem /usr/local/include/opencv4  -g   -std=c++11 -std=c++11 -o main/CMakeFiles/run.dir/sources/main.cpp.o -c \"/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/main/sources/main.cpp\"",
+  "file": "/home/zy/yolo11trt/yolo11trt (2)/yolo11trt/predict/main/sources/main.cpp"
+}
+]

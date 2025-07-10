@@ -1,0 +1,4 @@
+/home/zy/yolo11trt/get_model/build/CMakeFiles/rebuild_cache.dir
+/home/zy/yolo11trt/get_model/build/CMakeFiles/edit_cache.dir
+/home/zy/yolo11trt/get_model/build/CMakeFiles/yolo11_det.dir
+/home/zy/yolo11trt/get_model/build/CMakeFiles/myplugins.dir
